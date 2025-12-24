@@ -1,0 +1,6 @@
+[submodule "hypermapper"]
+	path = hypermapper
+	url = git@github.com:SpliDT-Decision-Trees/hypermapper.git
+[submodule "dse-and-training-framework"]
+	path = dse-and-training-framework
+	url = git@github.com:SpliDT-Decision-Trees/dse-and-training-framework.git
