@@ -42,9 +42,9 @@ python src/db_pusher.py --config configs/iscxvpn-2016-c13-bo.yml
 
 Once the training experiment completes, generate the pareto frontier of SpliDT trees for `iscxvpn-2016` dataset versus the baseline models, LEO and NetBeacon:
 
-Navigate to `SpliDT-Artifact-NSDI26/dse-and-training-framework/ae-plots` and run `results.ipynb` to retrieve results from the PostgreSQL database and save as CSVs. 
-Then, run `plots.ipynb` to generate and save the plot corresponding to `Figure 6:D3` in the paper.
-Select `rpy-ggplots` kernel when running the jupyter notebooks.
+Navigate to `SpliDT-Artifact-NSDI26/dse-and-training-framework/ae-plots` where jupyter notebooks are provided to retrieve and plot results.
+Run `results.ipynb` and select `rpy-ggplots` kernel for running the notebook to retrieve results from the PostgreSQL database and save as CSVs. 
+Then, run `plots.ipynb` with the same kernel to generate and save the plot corresponding to `Figure 6:D3` in the paper.
 
 > **Note:** Since these notebooks are on a VM behind a jumphost, it would be best to open a remote SSH connection through VS Code or Cursor.
 
