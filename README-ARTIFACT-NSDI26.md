@@ -1,6 +1,6 @@
 # SpliDT Artifact Evaluation for NSDI'26
 
-This guide describes how to access the pre-configured VM to evaluate SpliDT as described in the NSDI'26 publication: 
+This guide describes how to access the pre-configured VM to evaluate SpliDT on one dataset as described in the NSDI'26 publication: 
 *SPLIDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate*.
 
 ## a. Accessing the Pre-Configured VM
@@ -36,7 +36,7 @@ For comparison, add pre-computed results of the baseline models (LEO and NetBeac
 python src/db_pusher.py --config configs/iscxvpn-2016-c13-bo.yml
 ```
 
-> **Note:** For other datasets, you can run the same steps to generate their results (please see [README.md](README.md)). Moreover, to generate baseline models from scratch, please see [README-BASELINES.md](README-BASELINES.md). 
+> **Note:** For other datasets presented in the paper, you can run the same steps to generate their results (please see [README.md](README.md)). Moreover, to generate baseline models from scratch, please see [README-BASELINES.md](README-BASELINES.md). 
 
 ## c. Visualizing the Results
 
