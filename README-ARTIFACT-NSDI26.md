@@ -24,6 +24,12 @@ Start the PostgreSQL database and Grafana docker by running this command:
 make start-dashboards
 ```
 
+> **Note:** If the above step fails with an error, please stop the already running dashboards as following and rerun the above command:
+> ```shell title="shell"
+> make stop-dashboards
+> make start-dashboards
+> ```
+
 ### Training SpliDT Trees
 
 Inside the `SpliDT-Artifact-NSDI26/dse-and-training-framework` directory, activate the provided conda environment and run SpliDT training using the following commands. 
