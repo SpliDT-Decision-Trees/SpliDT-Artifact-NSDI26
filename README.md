@@ -96,7 +96,7 @@ path: "~/splidt-dataset"
 
 Step 2: Modify the `script_path` field in each dataset configuration file to reference the absolute path of the hypermapper.
 ```shell title="shell"
-script_path: "../../hypermapper/scripts/hypermapper.py"
+script_path: "../hypermapper/scripts/hypermapper.py"
 ```
 
 Now, we are ready to train and test our datasets. 
