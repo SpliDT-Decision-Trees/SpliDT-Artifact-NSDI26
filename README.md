@@ -100,6 +100,10 @@ script_path: "../../hypermapper/scripts/hypermapper.py"
 ```
 
 Now, we are ready to train and test our datasets. 
+Start by activating the conda environment you created above:
+```shell title="shell"
+conda activate splidt
+```
 
 Step 3: Run the following command to launch the Grafana dashboards:
 ```shell title="shell"
