@@ -125,6 +125,15 @@ python src/train.py --config configs/iscxvpn-2016-c13-bo.yml
 ## d. Experiments and Microbenchmarks
 After running training for each dataset, run the Jupyter notebook `plots/e2e-ggplot.ipynb` for the end-to-end plots and `plots/bm-ggplot.ipynb` for the microbenmark results. 
 
+## e. Stop the Experiment
+
+Conclude the experiments by running:
+
+```shell title="shell"
+make stop-dashboards
+conda deactivate
+```
+
 ## Team
 
 * [Murayyiam Parvez](https://murayyiam-parvez.github.io) (Purdue University)
