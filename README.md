@@ -130,7 +130,7 @@ Start by activating the custom `R-ggplot` conda environment as a docker containe
 make start-ggplot-docker
 ```
 
-Then, attach `vscode` or `cursor` to this docker container and once inside this container, open the notebooks located at `/home/jovyan/work`.
+Then, attach `vscode` or `cursor` to this docker container and once inside this container, open the directory located at `/home/jovyan/work`.
 Within these notebooks, select the conda environment as kernel to run the `rpy` code.
 Run `plots/e2e-ggplot.ipynb` Jupyter notebook to produce the end-to-end plots and `plots/bm-ggplot.ipynb` for the microbenmark results. 
 
