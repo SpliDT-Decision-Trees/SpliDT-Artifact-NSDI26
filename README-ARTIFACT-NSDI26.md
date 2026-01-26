@@ -40,7 +40,7 @@ python src/train.py --config configs/iscxvpn-2016-c13-bo.yml
 ```
 
 This will run the design space search based on Bayesian Optimization using [HyperMapper](https://github.com/SpliDT-Decision-Trees/hypermapper/) for up to 500 iterations.
-For this dataset, it will take roughly 4 hours to complete.
+For this dataset, it will take roughly 5 hours to complete.
 
 Once the training step is complete, add pre-computed results of the baseline models (LEO and NetBeacon) to the database for comparison, visualization, and plotting.
 
